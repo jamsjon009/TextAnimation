@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Animation Generator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create Your Text Animation</h1>
+    <form method="POST" action="/">
+      <label>Select Video Size</label><br>
+      <select name="size" required>
+        <option value="youtube">YouTube (1280×720)</option>
+        <option value="shorts">YouTube Shorts (720×1280)</option>
+        <option value="reels">Facebook Reels (1080×1920)</option>
+      </select><br><br>
+
+      <label>Title:</label><br>
+      <input type="text" name="title" required><br><br>
+
+      <label>Multiline Text (one line per animation):</label><br>
+      <textarea name="content" rows="5" cols="50" required></textarea><br><br>
+
+      <button type="submit">Generate Video</button>
+    </form>
+  </div>
+</body>
+</html>

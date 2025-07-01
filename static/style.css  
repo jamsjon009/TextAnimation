@@ -1,0 +1,28 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f2f4f8;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 500px;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  font-size: 16px;
+}
+button {
+  background-color: #2ecc71;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
